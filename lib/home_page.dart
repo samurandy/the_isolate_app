@@ -31,6 +31,7 @@ class MyHomePage extends StatelessWidget {
                   receivePort.listen((total) => debugPrint('Res2: $total'));
                 },
                 child: const Text('Task 2')),
+            //Isolate with parameters
             ElevatedButton(
                 onPressed: () async {
                   final receivePort = ReceivePort();
